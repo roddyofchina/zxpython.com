@@ -1,31 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f994371e-00a2-4abb-a1e9-2d5599cd253b" name="Default" comment="展示">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contribution/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contribution/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contribution/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contribution/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contribution/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contribution/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contribution/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forum/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forum/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forum/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forum/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forum/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forum/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forum/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train/views.py" />
+    <list default="true" id="f994371e-00a2-4abb-a1e9-2d5599cd253b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/fonts/roboto/Roboto-Bold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/fonts/roboto/Roboto-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/fonts/roboto/Roboto-Bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/fonts/roboto/Roboto-Bold.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/fonts/roboto/Roboto-Light.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/fonts/roboto/Roboto-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/fonts/roboto/Roboto-Light.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/fonts/roboto/Roboto-Light.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/fonts/roboto/Roboto-Medium.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/fonts/roboto/Roboto-Medium.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/fonts/roboto/Roboto-Medium.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/fonts/roboto/Roboto-Medium.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/fonts/roboto/Roboto-Regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/fonts/roboto/Roboto-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/fonts/roboto/Roboto-Regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/fonts/roboto/Roboto-Regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/fonts/roboto/Roboto-Thin.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/fonts/roboto/Roboto-Thin.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/fonts/roboto/Roboto-Thin.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/fonts/roboto/Roboto-Thin.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/css/materialize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/css/materialize.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/js/materialize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/materialize/js/materialize.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
     </list>
     <ignored path="zxpython.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,12 +52,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="220">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="materialize.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/materialize/js/materialize.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1477831132000" expanded="true" signature="163033:163040" ph="..." />
+                <marker date="1477831132000" expanded="true" signature="236210:236239" ph="..." />
+                <marker date="1477831132000" expanded="true" signature="236500:236510" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,7 +118,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -148,6 +165,11 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zxpython\static" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -396,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1483088000850</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="APP提交">
+      <created>1483939844238</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1483939844238</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -446,7 +475,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="展示" />
-    <option name="LAST_COMMIT_MESSAGE" value="展示" />
+    <MESSAGE value="APP提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="APP提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -488,9 +518,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="220">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/materialize/js/materialize.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1477831132000" expanded="true" signature="163033:163040" ph="..." />
+            <marker date="1477831132000" expanded="true" signature="236210:236239" ph="..." />
+            <marker date="1477831132000" expanded="true" signature="236500:236510" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
