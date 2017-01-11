@@ -1,29 +1,577 @@
-<!DOCTYPE html>
-<html lang="en">
-<link type="text/css" rel="stylesheet" href="/static/materialize/css/materialize.min.css"  media="screen,projection"/>
-<head>
-    <meta charset="UTF-8">
-    <title>首页展示</title>
-</head>
-<body>
-    <div class="navbar-fixed">
-			<nav style="background-color:#003F72">
-				<div class="nav-wrapper container">
-					<a href="/" class="brand-logo"><img class="img-responsive" style="width:50px; height;50px; margin-top:5px; text-align: center" src="/static/images/mainlogowhitethick.jpg"></a>
-					<a href="#" data-activates="navsidebar" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-					<ul class="right hide-on-med-and-down">
-                        <li><a href="#">首页</a></li>
-                        <li><a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="python 在线学习视频" href="/+=1/" data-tooltip-id="358b53a0-c53c-c4da-b56c-125cae8f1eac">自学视频</a></li>
-                        <li><a href="#">在线手册</a></li>
-                        <li><a href="#">论坛</a></li>
-                        <li><a href="#">登录</a></li>
-                        <li><a href="#">注册</a></li>
-					</ul>
-				</div>
-			</nav>
-		</div>
-</body>
+{% extends 'base.html' %}
 
-<script type="text/javascript" src="/static/materialize/js/jquery.min.js"></script>
-<script type="text/javascript" src="/static/materialize/js/materialize.min.js"></script>
-</html>
+{% block container %}
+
+
+     <div class="section">
+         <div class="row">
+            <div class="col s12" >
+                <div class="col s8">
+                    <div class="slider">
+                    <ul class="slides">
+                       <li>
+                         <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+                         <div class="caption center-align">
+                         <h3>This is our big Tagline!</h3>
+                         <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                         </div>
+                       </li>
+                           <li>
+<img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+<div class="caption left-align">
+  <h3>左对齐标题</h3>
+  <h5 class="light grey-text text-lighten-3">这是我们的小口号。</h5>
+</div>
+</li>
+                           <li>
+<img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+<div class="caption left-align">
+  <h3>左对齐标题</h3>
+  <h5 class="light grey-text text-lighten-3">这是我们的小口号。</h5>
+</div>
+</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col s4 ">
+                        <ul class="collection" >
+
+                                <li class="collection-item avatar">
+                                    <a href="#" style="color: #000">
+                                              <i class="material-icons circle red">play_arrow</i>
+                                              <span class="title">Python视频</span>
+                                    </a>
+                                </li>
+
+
+                            <li class="collection-item avatar">
+                                    <a href="#" style="color: #000">
+                                          <i class="material-icons circle">folder</i>
+                                          <span class="title">自学论坛</span>
+                                    </a>
+
+                            </li>
+                            <li class="collection-item avatar">
+                                <a href="#" style="color: #000">
+                                  <i class="material-icons circle green">insert_chart</i>
+                                  <span class="title">积分兑换</span>
+                                </a>
+
+                            </li>
+                            <li class="collection-item avatar">
+                                <a href="#" style="color: #000">
+                                  <i class="material-icons circle red">play_arrow</i>
+                                  <span class="title">排行榜</span>
+                                </a>
+                            </li>
+                          </ul>
+
+                </div>
+            </div>
+         </div>
+         <div class="row">
+                 <div class="col s12" style="background-color: #4dd0e1; height: 40px;">
+                     <div class="col s8" >
+                         <span>最新动态: xxxxxxxxxxxx</span>
+                     </div>
+
+                     <div class="col s4">
+                         <span>新用户:roddy</span>
+                     </div>
+                 </div>
+         </div>
+         <div class="row">
+             <div class="col l4 s12 m6">
+                 <table class="table table-hover">
+                  <thead>
+                    <tr >
+                      <th bgcolor="#8b008b" style="color: white">
+                         Python入门教程
+                        <a style="float: right!important;" href="/contribution/list/1">更多</a>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <ul>
+                            <li>
+                            <a href="/contribution/detail/547">关于Django是否要加入用户追踪功能的讨论</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/532">最新的PyPy很好地支持Python C扩展</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/494">5个最好的Python Web开发框架</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/491">为什么Pylint既有用又不能用，以及如何使用它</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/478">初学者最好的Python书籍</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/472">Java VS Python: 那种编程语言更有效率</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/471">7款学习Python编程的iPhone/iPad应用</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/468">学习Python编程的最好的7本书</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/438">10个python酷炫的理由</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/435">从R迁移到Python：那些你不可不知的库</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/433">Python，机器学习以及语言之间的战争（2）</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/432">Python，机器学习以及语言之间的战争(1)</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/431">20个必不可少的Python库</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/428">10个具有启发性的python项目</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/397">OpenStack如何使Python更好？反之亦然．</a>
+                          </li>
+
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+             </div>
+             <div class="col l4 s12 m6">
+                 <table class="table table-hover">
+                  <thead>
+                    <tr >
+                      <th bgcolor="#8b008b" style="color: white">
+                        Django web开发
+                        <a style="float: right!important;" href="/contribution/list/1">更多</a>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <ul>
+                            <li>
+                            <a href="/contribution/detail/547">关于Django是否要加入用户追踪功能的讨论</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/532">最新的PyPy很好地支持Python C扩展</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/494">5个最好的Python Web开发框架</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/491">为什么Pylint既有用又不能用，以及如何使用它</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/478">初学者最好的Python书籍</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/472">Java VS Python: 那种编程语言更有效率</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/471">7款学习Python编程的iPhone/iPad应用</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/468">学习Python编程的最好的7本书</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/438">10个python酷炫的理由</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/435">从R迁移到Python：那些你不可不知的库</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/433">Python，机器学习以及语言之间的战争（2）</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/432">Python，机器学习以及语言之间的战争(1)</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/431">20个必不可少的Python库</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/428">10个具有启发性的python项目</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/397">OpenStack如何使Python更好？反之亦然．</a>
+                          </li>
+
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+             </div>
+
+             <div class="col l4 s12 m6">
+                 <table class="table table-hover">
+                  <thead>
+                    <tr >
+                      <th bgcolor="#8b008b" style="color: white">
+                        Flask web开发
+                        <a style="float: right!important;" href="/contribution/list/1">更多</a>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <ul>
+                            <li>
+                            <a href="/contribution/detail/547">关于Django是否要加入用户追踪功能的讨论</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/532">最新的PyPy很好地支持Python C扩展</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/494">5个最好的Python Web开发框架</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/491">为什么Pylint既有用又不能用，以及如何使用它</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/478">初学者最好的Python书籍</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/472">Java VS Python: 那种编程语言更有效率</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/471">7款学习Python编程的iPhone/iPad应用</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/468">学习Python编程的最好的7本书</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/438">10个python酷炫的理由</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/435">从R迁移到Python：那些你不可不知的库</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/433">Python，机器学习以及语言之间的战争（2）</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/432">Python，机器学习以及语言之间的战争(1)</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/431">20个必不可少的Python库</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/428">10个具有启发性的python项目</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/397">OpenStack如何使Python更好？反之亦然．</a>
+                          </li>
+
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+             </div>
+
+             <div class="col l4 s12 m6">
+                 <table class="table table-hover">
+                  <thead>
+                    <tr >
+                      <th bgcolor="#8b008b" style="color: white">
+                        Python自动化运维
+                        <a style="float: right!important;" href="/contribution/list/1">更多</a>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <ul>
+                            <li>
+                            <a href="/contribution/detail/547">关于Django是否要加入用户追踪功能的讨论</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/532">最新的PyPy很好地支持Python C扩展</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/494">5个最好的Python Web开发框架</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/491">为什么Pylint既有用又不能用，以及如何使用它</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/478">初学者最好的Python书籍</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/472">Java VS Python: 那种编程语言更有效率</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/471">7款学习Python编程的iPhone/iPad应用</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/468">学习Python编程的最好的7本书</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/438">10个python酷炫的理由</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/435">从R迁移到Python：那些你不可不知的库</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/433">Python，机器学习以及语言之间的战争（2）</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/432">Python，机器学习以及语言之间的战争(1)</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/431">20个必不可少的Python库</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/428">10个具有启发性的python项目</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/397">OpenStack如何使Python更好？反之亦然．</a>
+                          </li>
+
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+             </div>
+
+             <div class="col l4 s12 m6">
+                 <table class="table table-hover">
+                  <thead>
+                    <tr >
+                      <th bgcolor="#8b008b" style="color: white">
+                          Python小案例
+                        <a style="float: right!important;" href="/contribution/list/1">更多</a>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <ul>
+                            <li>
+                            <a href="/contribution/detail/547">关于Django是否要加入用户追踪功能的讨论</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/532">最新的PyPy很好地支持Python C扩展</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/494">5个最好的Python Web开发框架</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/491">为什么Pylint既有用又不能用，以及如何使用它</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/478">初学者最好的Python书籍</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/472">Java VS Python: 那种编程语言更有效率</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/471">7款学习Python编程的iPhone/iPad应用</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/468">学习Python编程的最好的7本书</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/438">10个python酷炫的理由</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/435">从R迁移到Python：那些你不可不知的库</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/433">Python，机器学习以及语言之间的战争（2）</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/432">Python，机器学习以及语言之间的战争(1)</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/431">20个必不可少的Python库</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/428">10个具有启发性的python项目</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/397">OpenStack如何使Python更好？反之亦然．</a>
+                          </li>
+
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+             </div>
+
+             <div class="col l4 s12 m6">
+                 <table class="table table-hover">
+                  <thead>
+                    <tr >
+                      <th bgcolor="#8b008b" style="color: white">
+                        开源web系统
+                        <a style="float: right!important;" href="/contribution/list/1">更多</a>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <ul>
+                            <li>
+                            <a href="/contribution/detail/547">关于Django是否要加入用户追踪功能的讨论</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/532">最新的PyPy很好地支持Python C扩展</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/494">5个最好的Python Web开发框架</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/491">为什么Pylint既有用又不能用，以及如何使用它</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/478">初学者最好的Python书籍</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/472">Java VS Python: 那种编程语言更有效率</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/471">7款学习Python编程的iPhone/iPad应用</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/468">学习Python编程的最好的7本书</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/438">10个python酷炫的理由</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/435">从R迁移到Python：那些你不可不知的库</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/433">Python，机器学习以及语言之间的战争（2）</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/432">Python，机器学习以及语言之间的战争(1)</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/431">20个必不可少的Python库</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/428">10个具有启发性的python项目</a>
+                          </li>
+
+                            <li>
+                            <a href="/contribution/detail/397">OpenStack如何使Python更好？反之亦然．</a>
+                          </li>
+
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+             </div>
+         </div>
+     </div>
+    <script>
+         $(document).ready(function(){
+          $('.slider').slider({full_width: true});
+        });
+
+    </script>
+
+{% endblock %}
