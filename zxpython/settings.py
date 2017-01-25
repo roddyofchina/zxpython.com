@@ -128,3 +128,14 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR,'static'),
 )
+
+
+
+ALIPAY_PARTNER = '2088124923792424'
+ALIPAY_PRIVATE_KEY = 'kzmkykvprpmujaqw97afaw848fq310su'
+ALIPAY_SELLER_ID = '2088124923792424'
+ALIPAY_NOTIFY_IP = (
+        "121.0.26.0/23",
+        "110.75.128.0/19",
+        "115.124.16.0/24",
+        )

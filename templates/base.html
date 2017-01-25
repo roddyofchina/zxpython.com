@@ -2,6 +2,15 @@
 
 <body>
     <div class="navbar-fixed">
+          <ul id="Online_book" class="dropdown-content">
+            <li><a href="https://docs.python.org/2.7/" target="view_window">python2.7</a></li>
+            <li><a href="https://docs.python.org/3.5/" target="view_window">python3.5</a></li>
+            <li class="divider"></li>
+            <li><a href="https://docs.djangoproject.com/en/1.8/" target="view_window">django1.8</a></li>
+            <li><a href="https://docs.djangoproject.com/en/1.10/" target="view_window">django1.10</a></li>
+            <li><a href="http://flask.pocoo.org/docs/0.12/" target="view_window">flask</a></li>
+          </ul>
+
 			<nav style="background-color:#003F72">
 				<div class="nav-wrapper container">
 					<a href="/" class="brand-logo"><img class="img-responsive" style="width:50px; height;50px; margin-top:5px; text-align: center" src="/static/images/mainlogowhitethick.jpg"></a>
@@ -9,7 +18,7 @@
 					<ul class="right hide-on-med-and-down">
                         <li><a href="{% url 'index' %}">首页</a></li>
                         <li><a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="python 在线学习视频" href="{% url 'TrainVideo' %}" data-tooltip-id="358b53a0-c53c-c4da-b56c-125cae8f1eac">自学视频</a></li>
-                        <li><a href="#">在线手册</a></li>
+                        <li><a class="dropdown-button" href="#!" data-activates="Online_book">在线手册<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
                         <li><a href="{% url 'article_list' %}">论坛</a></li>
                         <li><a href="{% url 'login' %}">登录</a></li>
                         <li><a href="{% url 'register' %}">注册</a></li>
